@@ -5,7 +5,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-![Title architecture](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/main/images/title_diagram.png)
+![Title architecture](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/5b9f2d1fd1cb81b527cecb87622e84aaa8560d5f/images/title_diagram.png)
 
 CivicTriage-AI is an experimental, solo-built proof of concept that routes synthetic “311-style” citizen requests to a small set of municipal-style departments. The repository demonstrates a practical training story that mirrors how I think about modern agent development: start with a supervised policy, then nudge it with reviewer preferences so the behavior matches operational nuance that raw labels alone rarely capture.
 
@@ -19,7 +19,7 @@ The code here does not call an external LLM API. Instead, it uses a transparent 
 
 ## Architecture Overview
 
-![High-level architecture](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/main/images/architecture_diagram.png)
+![High-level architecture](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/5b9f2d1fd1cb81b527cecb87622e84aaa8560d5f/images/architecture_diagram.png)
 
 The pipeline has four conceptual stages:
 
@@ -30,15 +30,15 @@ The pipeline has four conceptual stages:
 
 ## Sequence View
 
-![Request handling sequence](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/main/images/sequence_diagram.png)
+![Request handling sequence](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/5b9f2d1fd1cb81b527cecb87622e84aaa8560d5f/images/sequence_diagram.png)
 
 ## Training Flow
 
-![Training flow](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/main/images/flow_diagram.png)
+![Training flow](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/5b9f2d1fd1cb81b527cecb87622e84aaa8560d5f/images/flow_diagram.png)
 
 ## Cover Animation
 
-![Demo animation](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/main/images/title-animation.gif)
+![Demo animation](https://raw.githubusercontent.com/aniket-work/CivicTriage-AI/5b9f2d1fd1cb81b527cecb87622e84aaa8560d5f/images/title-animation.gif)
 
 The animated asset summarizes the narrative: run the CLI, inspect the ASCII summary table, then review the evaluation snapshot panel.
 
